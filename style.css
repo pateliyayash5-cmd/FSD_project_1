@@ -3,11 +3,17 @@
     padding: 0px;
     
 }
+
+div>ul{
+    text-align: right;
+}
+
 div>ul>li{
     display: inline-block;
     margin-left: 2px;
     margin-right: 2px;
 }
-div>ul{
-    text-align: right;
+div>ul>li>a{
+    color: black;
+    text-decoration: none;
 }
